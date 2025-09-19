@@ -28,6 +28,7 @@ It allows booking rooms, ordering food, checking availability, generating bills,
     2. Pasta - ₹60
     3. Noodles - ₹70
     4. Coke - ₹30
+       
   * Multiple food orders can be placed per room
 
 * **Billing & Checkout**
@@ -44,14 +45,10 @@ It allows booking rooms, ordering food, checking availability, generating bills,
 ## 📂 Project Structure
 
 ```
-HotelManagement/
-│── Main.java                # Entry point of the application
-│── Hotel.java               # Core hotel operations (booking, food, checkout, etc.)
-│── Room Classes (Single/Double)
-│── Food.java                # Handles food orders
-│── holder.java              # Stores all rooms in arrays
-│── write.java               # Thread class to write data to backup file
-│── backup                   # Serialized file (auto-created to store data)
+.
+├── Main.java          # Main class to run the program
+├── backup             # Auto-generated file to store hotel data
+└── README.md          # Project documentation
 ```
 
 ---
